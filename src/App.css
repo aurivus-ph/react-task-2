@@ -1,0 +1,55 @@
+body {
+	max-width: 100ch;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: sans-serif;
+}
+
+.input {
+	border: 2px solid grey;
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+	margin: 0.2em 0.5em;
+}
+
+.input input {
+	margin: 0.5em;
+}
+
+.input input[type='text'] {
+	width: 10ch;
+}
+
+.input input[type='number'] {
+	width: 8ch;
+	text-align: right;
+}
+
+.item {
+	border: 2px solid gray;
+	border-radius: 8px;
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+	margin: 0.2em 0.5em;
+}
+
+.item span {
+	display: inline-block;
+	margin: 0.5em;
+}
+
+.item .name {
+	width: 8ch;
+	font-weight: bold;
+}
+
+.item .value-initial {
+	width: 6ch;
+	text-align: right;
+}
+
+.item .value-remaining {
+	width: 6ch;
+	color: red;
+	text-align: right;
+}
